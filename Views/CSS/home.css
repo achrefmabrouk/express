@@ -1,0 +1,6 @@
+nav{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+}
