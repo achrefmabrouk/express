@@ -3,7 +3,6 @@ const app = express()
 const middleware = (req,res,next)=>{
     const date = new Date ()
 const hours = date.getHours()
-console.log(hours)
 const day= date.getDay()
 if (day>=1 && day<=5  && hours<=17 && hours>=9){
     next()
