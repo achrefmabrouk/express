@@ -2,7 +2,7 @@ body{
     gap: 30px;
     background-color: black;
 }
-nav{
+.navbar {
     background-color: gray;
     display: flex;
     justify-content: space-around;
@@ -29,7 +29,7 @@ margin-left: 217px;
     color: white;
     text-align: center;
     height: 68px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 #p3{
     color: white;
@@ -103,7 +103,7 @@ span{
     gap: 50px;
 }
 #cont{
-    color: white;
+    color: black;
     display: flex;
     justify-content: space-evenly;
     margin-top: 20%;
@@ -114,5 +114,6 @@ span{
 #formulaire{
     margin-top: 5%;
     gap: 30px;
-    text-align: center;
+    width: 500px;
+    margin-left:500px ;
 }
